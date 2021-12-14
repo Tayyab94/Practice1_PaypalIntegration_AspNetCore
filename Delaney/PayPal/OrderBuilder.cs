@@ -56,6 +56,27 @@ namespace PayPal
                                 }
                             }
                         },
+
+                        // If you want to Apply discount. then use this code. 
+
+                        //AmountWithBreakdown = new AmountWithBreakdown
+                        //{
+                        //    CurrencyCode = PayPal.Values.CurrencyCode.GBP,
+                        //    Value ="52.00",
+                        //    AmountBreakdown = new AmountBreakdown
+                        //    {
+                        //        ItemTotal = new Money
+                        //        {
+                        //            CurrencyCode = basket.CurrencyCode,
+                        //            Value = basket.SubTotal.ToString()
+                        //        },
+                        //        Discount = new Money
+                        //        {
+                        //            CurrencyCode = basket.CurrencyCode,
+                        //            Value = "2.00"
+                        //        }
+                        //    }
+                        //},
                         Items = new List<Item>()
                     }
                 }
